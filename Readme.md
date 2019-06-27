@@ -6,6 +6,7 @@ prerequisities: rust and cargo installed, libdebus-dev
 ### build and install
 ```shell
 mkdir ~/bin
+#assumes you've clone repo into workspace dir
 cd workspace/batcheck
 cargo build --release
 cp targer/release/batcheck ~/bin/
@@ -13,7 +14,7 @@ crontab -e
 ```
 Then put following strings into crontab:
 ```shell
-#to run batcheck every
+#to run batcheck every 5 mins
 DISPLAY=":0.0"
 XAUTHORITY="/home/username/.Xauthority"
 XDG_RUNTIME_DIR="/run/user/1000" #user id in system - can check by run `id` command
