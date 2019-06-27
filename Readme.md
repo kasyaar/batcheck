@@ -22,9 +22,9 @@ XDG_RUNTIME_DIR="/run/user/1000" #user id in system - can check by run `id` comm
 
 ```
 
-##Screenshot
+## Screenshot
 ![screenshot](/screenshot.png)
 
-##TODO
+## TODO
 set battery charging threshhold as a parameters.
 
