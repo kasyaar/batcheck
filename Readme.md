@@ -2,8 +2,9 @@
 Helps me to extend my old zenbook battery life.
 Simply checks battery status and show notice to on/off charging manually in case battery in configured threshold(now hardcoded from 81% to 85%).
 ## Setup
-prerequisities(linux): rust and cargo installed, libdbus-dev
-May works on win and mac.
+prerequisities(linux): rust and cargo installed, libdbus-dev.
+
+May works on lin, win and mac.
 ### build and install
 ```shell
 mkdir ~/bin
